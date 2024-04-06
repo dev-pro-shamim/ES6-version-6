@@ -118,3 +118,28 @@
     
     const log1pDivision = log1p(121,20);
     console.log(log1pDivision);
+    //exp division
+    const exp = (a,b) => Math.exp(a/b);
+    
+    const expDivision = exp(121,20);
+    console.log(expDivision);
+    //expm1 division
+    const expm1 = (a,b) => Math.expm1(a/b);
+    
+    const expm1Division = expm1(121,20);
+    console.log(expm1Division);
+    //pow division
+    const pow = (a,b) => Math.pow(a/b);
+    
+    const powDivision = pow(121,20);
+    console.log(powDivision);
+    //sqrt division
+    const sqrts = (a,b) => Math.sqrt(a/b);
+    
+    const sqrtDivision = sqrts(121,20);
+    console.log(sqrtDivision);
+    //cbrt division
+    const cbrts= (a,b) => Math.cbrt(a/b);
+    
+    const cbrtDivision = cbrts(121,20);
+    console.log(cbrtDivision);
